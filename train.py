@@ -1,4 +1,4 @@
-from lp_dataloader import LP_Loader
+from dataloader import LP_Loader
 from model import PureMF
 from torch import optim
 from procedure import Test, Softmax_train_teacher
