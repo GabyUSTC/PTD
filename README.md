@@ -7,6 +7,10 @@ This is the Pytorch implementation for our paper "Propagation then Distillation:
 ## Dataset
 We provide four processed datasets: Gowalla, Yelp2018, Home&Kitchen and Amazon-CD.
 
+## Training loss
+The current implementation of the training file is of low efficiency for the sake of loss function. It is optimized by introducing new techniques. 
+The code coming soon.
+
 ## Commands to Reproduce Our Results
 Gowalla:
 `python -u train.py --dataset gowalla --drop_ratio 0.1 --t 0.06 --a 0 --norm_type 0.9 --beta 0.4`
